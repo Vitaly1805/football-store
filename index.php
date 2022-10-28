@@ -1,0 +1,1 @@
+<?phpsession_start();require_once "config/config.php";require_once "controller/Core.php";require_once "model/Model.php";require_once "libraries/Classes/PHPExcel.php";$core = new Core();$core->setBody();
